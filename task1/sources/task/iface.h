@@ -38,9 +38,12 @@ namespace Task
             Unit *next(); // Get the next unit in list
             Unit *prev(); // Get the previous unit in list
             T& val();     // Get the reference to the unit's value
-       
         private:
+        // ---- Implementation routines ----
+        
+            
         // ---- Data involved in the implementation ----    
+         
         };
 
         // ---- Public interface of DList ----
@@ -55,16 +58,17 @@ namespace Task
 
         Unit* first(); // Get first unit
         Unit* last();  // Get last unit
-        T& front();    // Get reference to first unit value
-        T& back();     // Get reference to last unit value
         
-        Unit* erase (Unit* u); // Remove given unit from list  
-        void clear();           // Remove all units
-        bool empty();           // Check if list is empty. Returns true if empty, false otherwise
-        unsigned size();        // Get the number of units in the list
+        Unit* erase (Unit* u); // Remove given unit from list, return next unit or null  
+        void clear();          // Remove all units
+        bool empty();          // Check if list is empty. Returns true if empty, false otherwise
+        unsigned size();       // Get the number of units in the list
         void reverse();        // Reverse the order of units in the list
-    private:
+private:
+        // ---- The internal implementation routines ----
+        
         // ---- The data involved in the implementation ----
+       
     };
 
     bool uTest( UnitTest *utest_p);

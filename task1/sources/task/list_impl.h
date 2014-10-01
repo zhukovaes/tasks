@@ -5,6 +5,8 @@
 
 namespace Task
 {
+// ---- DList::Unit class implementation ----
+
     // This is how template class members are defined outside of the template class
     template <class T> // template keyword and template parameter
     typename DList<T>::Unit *   // the return value. Note that we have to use the template parameter T to specify return type.
@@ -12,14 +14,26 @@ namespace Task
                                 // dependent name and we should hint the compiler that it is a type
     DList<T>::Unit::next()      
     {
-        // implementation should be here
+        // implementation
+        return 0;
+    }
+
+    template <class T> typename DList<T>::Unit * 
+    DList<T>::Unit::prev()      
+    {
+        // implementation 
         return 0;
     }
     
+// ---- End of DList::Unit class implementation ----
+
+// ---- DList template class implementation ----
+
     //One more example of template class members definition
     template <class T> void DList<T>::push_front (const T& val)
     {
-        //implementation should be here
+         // implementation
     }
-        
+
+// ---- End of DList template class implementation ----
 };
