@@ -6,6 +6,5 @@
 
 /* namespaces import */
 using namespace Utils;
-using namespace Mem;
 
 #include "../task/iface.h"
