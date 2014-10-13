@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="mem_utest.cpp">
-      <Filter>mem</Filter>
-    </ClCompile>
-    <ClCompile Include="mem_mgr.cpp">
-      <Filter>mem</Filter>
-    </ClCompile>
-    <ClCompile Include="mem_pool.cpp">
-      <Filter>mem</Filter>
-    </ClCompile>
     <ClCompile Include="list_utest.cpp">
       <Filter>raw_list</Filter>
     </ClCompile>
@@ -36,38 +27,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mem.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_chunk.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_entry.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_fixed_pool.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_mgr.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_obj.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_pool.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_ref.h">
-      <Filter>mem</Filter>
-    </ClInclude>
     <ClInclude Include="list.h">
       <Filter>raw_list</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_generic_pool.h">
-      <Filter>mem</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_alloc_policy.h">
-      <Filter>mem</Filter>
     </ClInclude>
     <ClInclude Include="log.h">
       <Filter>log</Filter>
@@ -77,9 +38,6 @@
     </ClInclude>
     <ClInclude Include="utest.h">
       <Filter>utest</Filter>
-    </ClInclude>
-    <ClInclude Include="mem_pool_alloc.h">
-      <Filter>mem</Filter>
     </ClInclude>
     <ClInclude Include="host.h">
       <Filter>low_level</Filter>
@@ -110,9 +68,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="mem">
-      <UniqueIdentifier>{2d1a2479-2ad7-49bf-83de-2ead74662978}</UniqueIdentifier>
-    </Filter>
     <Filter Include="raw_list">
       <UniqueIdentifier>{595145e2-e4bf-4158-88d8-9f75b6a0b014}</UniqueIdentifier>
     </Filter>

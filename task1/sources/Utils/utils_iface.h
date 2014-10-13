@@ -43,7 +43,6 @@
 #include "list.h"
 #include "singleton.h"
 #include "log.h"
-#include "mem.h"
 #include "conf.h"
 
 
@@ -56,26 +55,6 @@ namespace Utils
      */
     bool uTestList( UnitTest *utest_p);
 
-    /**
-     * Test memory manager
-     */
-    bool uTestMem( UnitTest *utest_p);
-
-    /**
-     * Test pool allocators with list
-     */
-    bool uTestMemPoolListAlloc( UnitTest *utest_p);
-
-    /**
-     * Test std allocators to get reference time
-     */
-    bool uTestStdListAlloc( UnitTest *utest_p);
-
-    /**
-     * Test pool allocator with map
-     */
-    bool uTestMemPoolMapAlloc( UnitTest *utest_p);
-    
     /**
      * Test Utils package
      */
