@@ -1,4 +1,5 @@
 #include "iface.h"
+#include "list_impl.h"
 
 // Implementation of the task's unit testing
 namespace Task
